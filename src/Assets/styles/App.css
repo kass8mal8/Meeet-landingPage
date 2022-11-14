@@ -1,0 +1,26 @@
+@font-face {
+    font-family: sen;
+    src: url(../Font/Sen-Regular.ttf);
+}
+
+body{
+    color:rgb(233, 223, 223);
+    background: rgb(8, 89, 114);
+}
+
+.App{
+    width: 90%;
+    margin-left: 15px;
+    font-family: sen;
+}
+
+.logo{
+    margin: 5px auto;
+}
+
+@media screen and (min-width:800px) {
+    .App{
+        width: 80%;
+        margin-left: 15%;
+    }
+}

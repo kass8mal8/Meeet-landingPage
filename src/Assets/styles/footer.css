@@ -1,0 +1,41 @@
+.footer li{
+    list-style-type: none;
+    display: inline-flex;
+    margin-right:30px;
+}
+
+.footer{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.four{
+    right: 15%;
+    margin-top: -30px;
+    width:150px;
+}
+.twitter{
+    left:0px;
+    top:32px;
+}
+.footer ul{
+    margin-top: 50px;
+}
+
+@media screen and (max-width:500px){
+    .four{
+        display: none;
+    }
+    .logo{
+        top: 10px;
+    }
+    .footer ul{
+        margin-top: 150px;
+    }
+    .twitter{
+        width: 15%;
+        top: 72%;
+    }
+
+}
